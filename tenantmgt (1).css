@@ -1,0 +1,114 @@
+.tenantmgt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tenantmgt h4 {
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6d767e;
+}
+
+.tenat-page-bg {
+    background-color: white;
+}
+
+.add-tenant {
+    border: none;
+    border-radius: 20px;
+    padding: -15px;
+    color: white !important;
+    background-color: #896be5;
+    padding: 6px 20px 6px 20px;
+}
+
+.addtenant {
+    text-decoration: none;
+    color: white;
+}
+
+.addtenant:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.8rem 0.8rem;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none;
+}
+
+.thead,
+th {
+    color: #6d767e;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.thead,
+th,
+tr {
+    color: #76767a;
+    border-top: none;
+    border-bottom: 2px solid #ebedef !important;
+}
+.tenant-sort-icon{
+    margin-left: 70px;
+    margin-right: 5px;
+}
+.about-filter-icon{
+    margin-left: 300px;
+}
+
+.dropdown:hover .menu-icon,
+.dropdown.show .dropdown-toggle:hover .menu-icon {
+    color: #baa5f0;
+}
+
+#pageDropDown {
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    padding: 5px 30px 5px 30px;
+}
+
+.pagination-text {
+    color: #6d767e;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.react-bootstrap-table-pagination {
+    padding-top: 20px;
+}
+
+.react-bootstrap-table-page-btns-ul,
+li {
+    margin-right: 10px;
+    --bs-pagination-border-radius: 0px;
+}
+
+.react-bootstrap-table-page-btns-ul .page-link {
+    background-color: none;
+    border: none;
+    color: #6d767e;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #b7b8ba !important;
+    color: white;
+    box-shadow: none;
+}
+
+/* .............. */
