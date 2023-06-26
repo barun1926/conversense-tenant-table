@@ -1,0 +1,12 @@
+.usermgt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usermgt h4 {
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6d767e;
+}
