@@ -1,0 +1,249 @@
+
+.tenantmgt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tenantmgt h4 {
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6d767e;
+}
+
+.tenat-page-bg {
+    background-color: white;
+}
+
+.add-tenant {
+    border: none;
+    border-radius: 20px;
+    padding: -15px;
+    color: white !important;
+    background-color: #896be5;
+    padding: 6px 20px 6px 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.addtenant {
+    text-decoration: none;
+    color: white;
+}
+
+.addtenant:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.8rem 0.8rem !important;
+}
+
+.about-filter-icon{
+    margin-left: 200px ;
+} 
+
+.profile-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    box-shadow: -3px 2px #c1c1c1;
+    margin-right: 5px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none !important;
+}
+
+.thead,
+th {
+    color: #6d767e !important;
+    font-size: medium !important;
+    font-weight: 700 !important;
+}
+
+.thead,
+th,
+tr {
+    color: #76767a !important;
+    border-top: none !important;
+    border-bottom: 2px solid #ebedef !important;
+}
+
+.dropdown:hover .menu-icon,
+.dropdown.show .dropdown-toggle:hover .menu-icon {
+    color: #baa5f0;
+}
+
+#pageDropDown {
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+}
+.caret{
+    margin-left:2rem;
+}
+
+.pagination-text {
+    color: #6d767e;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.react-bootstrap-table-pagination {
+    padding-top: 20px;
+}
+.react-bootstrap-table-page-btns-ul{
+    float: right;
+}
+.react-bootstrap-table-page-btns-ul,
+li {
+    margin-right: 5px;
+    --bs-pagination-border-radius: 0px;
+}
+
+.react-bootstrap-table-page-btns-ul .page-link {
+    background-color: none;
+    border: none;
+    color: #6d767e;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: #b7b8ba !important;
+    color: white;
+    box-shadow: none;
+}
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+@media only screen and (max-width:820px) {
+    .about-filter-icon{
+        margin-left: 0px;
+    }
+    .tenantmgt {
+        display: block;
+    }
+}
+
+/* view and Edit tenant css */
+.edit-tenant-body tr{
+    border-bottom:none !important;
+    border-style: hidden;
+}
+
+.view-tenant-header{
+    border-bottom: 2px solid #ebedef !important;
+    /* border-width:1px; */
+}
+
+/* thead, tbody, tfoot, tr, td, th{
+    border-style:hidden !important;
+} */
+.validity{
+    display: inline-block;
+}
+
+.me-2{
+    margin-left: 10px;
+    color: #817f7f;
+}
+
+.me-4{
+    text-align: center;
+    color: #e03b3b;
+}
+
+.me-3{
+    color: #5757c4;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.tenant-edit{
+    margin-top: 15px;
+    margin-right: 32px !important;
+}
+
+.add-sub{
+    float: right;
+}
+
+.tenat-border{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    align-items: center;
+}
+.edit-tenant-body tr{
+    border-bottom:none !important;
+    border-style: hidden;
+}
+.view-tenant-header{
+    border-bottom: 2px solid #ebedef !important;
+    /* border-width:1px; */
+}
+/* thead, tbody, tfoot, tr, td, th{
+    border-style:hidden !important;
+} */
+.validity{
+    
+    display: inline-block;
+}
+.me-2{
+    margin-left: 10px;
+    color: #817f7f;
+}
+.me-4{
+    text-align: center;
+    color: #e03b3b;
+}
+.me-3{
+    color: #5757c4;
+}
+.btn-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.tenant-edit{
+    margin-top: 15px;
+    margin-right: 32px !important;
+}
+.add-sub{
+    float: right;
+    font-size: 16px;
+}
+.tenat-border{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    align-items: center;
+}
+@media only screen and (max-width:820px) {
+    .about-filter-icon{
+        margin-left: 0px;
+    }
+    .tenantmgt {
+        display: block;
+    }
+}
