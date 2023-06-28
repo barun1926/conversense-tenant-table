@@ -1,0 +1,132 @@
+.add-tenantmgt {
+    display: flex;
+    justify-content: space-between;
+}
+.add-tenantmgt h4 {
+    line-height: 54px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #6d767e;
+}
+.addtenant-bg{
+    background-color: white;
+    padding-bottom: 10px;
+}
+.backto-tenant{
+    border: none;
+    border-radius: 20px;
+    padding: -15px;
+    color: white !important;
+    background-color: #896be5;
+    padding: 6px 20px 6px 20px;
+}
+.mdwest{
+    margin-bottom: 2px;
+}
+.back-to-tenantlist{
+    text-decoration: none;
+    color: white;
+}
+.back-to-tenantlist:hover{
+    text-decoration: none;
+    color: white;
+}
+.tenat-border{
+    font-size: large;
+    font-weight: 700;
+    color: #6d767e;
+    padding-bottom: 3px;
+    border-bottom: 2.5px solid gray;
+}
+.input-label {
+    position: relative;
+    top: 10px;
+    left: 14px;
+    padding-right: 16px;
+    padding-left: 1px;
+    z-index: 1;
+    background-color: white;
+}
+.asterisk{
+    color: red;
+    font-size: 10px;
+}
+.form-control {
+    border-radius: 0px;
+    padding-left: 14px;
+}
+.add-btn-tenant{
+    justify-content: flex-end;
+    margin: auto;
+}
+.btn-save{
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #a5aaf3;
+    border-radius: 19px;
+    margin-right: 30px;
+}
+.btn-save.enabled {
+    background-color: #896be5;
+  }
+.btn-clear{
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #896be5;
+    border-radius: 19px;
+}
+
+.submit{
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #a5aaf3;
+    border-radius: 19px;
+    margin-right: 30px;
+}
+.error-msg{
+    color: red;
+    font-size: 13px;
+}
+.validity{
+    background-color: #dcdbdb;
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+.search{
+    border: 1px solid #bbb;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0px 5px;
+}
+.search:focus{
+    outline: none;
+}
+.tenantmgt .dropdown{
+    width: 67px;
+    border: 1px solid #bbb;
+    height: 32px;
+    border-radius: 0px;
+    padding: 0px 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 14px;
+}
+.search-api{
+    display: flex;
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebedef;
+    padding-bottom: 16px;
+}
+.table_data{
+    text-align: center;
+}
