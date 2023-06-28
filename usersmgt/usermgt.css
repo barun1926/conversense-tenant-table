@@ -10,3 +10,19 @@
     letter-spacing: 1px;
     color: #6d767e;
 }
+
+.add-username {
+    border: none;
+    border-radius: 20px;
+    padding: -15px;
+    color: white !important;
+    background-color: #896be5;
+    padding: 6px 20px 6px 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.apply-button2{
+    display: flex;
+    justify-content: space-between;
+}
