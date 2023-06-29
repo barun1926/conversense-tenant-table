@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#f9fafd;;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .main-containers {
+  float: left;
+  width: 75%;
+} */
+
+/* Paginantion */
+.dropdown-item>a{
+  text-decoration: none;
+  color: #6d767e;
+}
+
+.main-sideBarFalse{
+  margin-left: 18rem;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  /* padding-top: 1rem; */
+  /* padding-left: 1.5rem; */
+}
+.main-sideBarTrue{
+  /* background-color: var(--bs-body-bg); */
+  margin-left: 7rem;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  /* padding-top: 1rem; */
+}
+.page-link:focus{
+  box-shadow: none !important;
+}
+
+input:focus-visible {
+  outline: 0px;
+}
+
+
+/* /////Nis */
+.filter-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.filter-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.filter-scroll::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.filter-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.filter-item,input{
+  cursor: pointer;
+}
+
+.filter-list-popup {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  padding: 10px 5px 10px 10px;
+}
+.filter-list-popup .filter-item{
+  padding: 2px;
+}
+.filter-list-popup .filter-item .selectAll{
+  font-style: italic;
+}
+.filter-list-popup .filter-item label{
+  padding-left: 4px;
+}
+.search-list{
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.filter-scroll{
+  max-height: 106px;
+  overflow-y: auto;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  /* Remove default */
+  -webkit-appearance: none !important;
+  /*Your new styles */
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+  height: 20px;
+  width: 20px;
+  background: red;
+}
+
+.apply-button{
+  float: right;
+  margin: 4px 5px 0px 0px;
+}
+.apply-button,button{
+  border: none;
+}
+
+.dropdown-menu.show{
+  border-radius: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.dropdown-item:hover,active,focus{
+  background-color: #f1eafd;
+}
+.dropdown-item:active{
+  background-color: #f1eafd;
+  color: var(--bs-dropdown-link-color);
+}
+.dropdown-item:focus{
+  background-color: #f1eafd;
+}
+.dropdown-item:focus-visible{
+  outline: 0px;
+}
